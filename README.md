@@ -1,2 +1,0 @@
-# Sequencer
-Ročníková práce
