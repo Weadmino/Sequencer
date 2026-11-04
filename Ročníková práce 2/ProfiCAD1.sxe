@@ -1,0 +1,1101 @@
+<document type="ProfiCAD sxe" version="12">
+<fonts letter="155,0,0,0,Lucida Sans Unicode,000000" text="110,0,0,0,Lucida Sans Unicode,000000" type="85,0,0,0,Arial,FF00FF" refs="85,0,0,0,Arial,008000" wire_names="85,0,0,0,Arial,000000" cross_refs="85,0,0,1,Arial,0000FF" outlets="85,0,0,0,Arial,000000" reports="85,0,0,0,Arial,000000"/>
+<PrintSettings PrinterName="" PaperSize="9" FormName="A4" SheetSizeX="210" SheetSizeY="297" WantsCustom="0" CustomSizeX="283" CustomSizeY="203"/>
+<PrintReportSettings paper_size_enum="9" sheet_size_x="210" sheet_size_y="297" color_bg_even="15727333" color_bg_header="8454143" color_grid="16777215"/>
+<PrinterSettings PaperSizeX="2770" PaperSizeY="1900" PhysicalOffestTenthMm_X="29" PhysicalOffestTenthMm_Y="30"/>
+<tb use="1" name="C:\Users\Public\Documents\ProfiCAD Library\_TB\standard9.ptb"/>
+<PageSettings bgColor="FFFFFF" zoom="100" frame="YES" showT="YES" showV="YES" includeMargins="YES"/>
+<RefGridSettings FieldSize="50"/>
+<NumberingWire Over="1" Digits="3" TypeRenumbering="0" ShowWireName="0" WireLabelDist_a="4" WireLabelDist_b="10" WireLabelDist_c="7"/>
+<summary>
+<field name="author" value=""/>
+<field name="date" value="07.10.2026"/>
+</summary>
+<repo>
+<ppd name="elektronika\mechanické díly\konstrukční prvky\svorka.ppd" t="X" fG="6b78d699-2542-47fd-a146-a5205997bb18" lG="0307fdce-dbe4-414c-974b-55fadf6d9537" function="1">
+<layers current="0">
+<layer name="0" v="1">
+<ellipse left="-8" top="-8" right="8" bottom="8"/>
+<outlet x="0" y="-8"/>
+<outlet x="0" y="8"/>
+</layer>
+</layers>
+<defaults>
+<attributes>
+<attribute name="_ref" value="1" x="-35" y="-20" al="6"/>
+<attribute name="_type" value="" x="-35" y="20" al="6"/>
+<attribute name="_o1" value="1" custom="i" x="-10" y="-8" al="6"/>
+<attribute name="_o2" value="1" custom="o" x="-10" y="8" al="6"/>
+</attributes>
+</defaults>
+</ppd>
+<ppd name="elektronika\polovodiče a elektronky\tranzistory\NPN.ppd" t="T" v="BC337" fG="9381b22a-a657-4be3-8261-2e4dd427ea4e" lG="2548ab55-ee23-4f22-a0ea-857f85eb0d8d">
+<layers current="0">
+<layer name="0" v="1">
+<ellipse left="-50" top="-50" right="50" bottom="50"/>
+<polyline pts="-25,0,-50,0,"/>
+<polyline op-lw="4" pts="-25,-21,-25,21,"/>
+<polyline pts="-25,0,28,-42,"/>
+<polyline pts="-25,0,28,42,"/>
+<polyline pts="22,37,11,19,"/>
+<polyline pts="21,37,3,31,"/>
+<outlet x="-50" y="0"/>
+<outlet x="28" y="42"/>
+<outlet x="28" y="-42"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="elektronika\pasívní komponenty\rezistory\rezistor.ppd" t="R" v="10K" n="EN 60617: 04-01-01" fG="28c7548c-a963-45ba-b852-59afda220b0d" lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0">
+<layers current="0">
+<layer name="0" v="1">
+<rect left="-8" top="-25" right="8" bottom="25"/>
+<outlet x="0" y="-25"/>
+<outlet x="0" y="25"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="elektronika\pasívní komponenty\kondenzátory\kondenzátor.ppd" t="C" v="10k" fG="3fbd61fd-fc00-4eb8-872e-cd3da5b023bf" lG="3c3e597e-a91e-4b34-8520-0c5b3b7b4cc2">
+<layers current="0">
+<layer name="0" v="1">
+<polyline op-lw="4" pts="-18,-4,18,-4,"/>
+<polyline op-lw="4" pts="-18,4,18,4,"/>
+<outlet x="0" y="-4"/>
+<outlet x="0" y="4"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="elektronika\přenosová technika\zesilovače\zesilovač - tvar 1.ppd" n="EN 60617: 10-15-01" fG="815f8b08-1043-4f86-996f-baa283b090e3" lG="4cd4bf28-09c3-4747-bf41-b3e48dc210e5">
+<layers current="0">
+<layer name="0" v="1">
+<polygon pts="-40,-40,-40,40,40,0,"/>
+<outlet x="-40" y="0"/>
+<outlet x="40" y="0"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="elektronika\mechanické díly\konstrukční prvky\uzemnění.ppd" t="zem" n="EN 60617: 02-15-01" fG="f6a30821-bf73-4ea5-b975-c906d17a729c" lG="6bc1ed64-68b8-4f01-9546-108b4fd774c8">
+<layers current="0">
+<layer name="0" v="1">
+<polyline pts="0,-20,0,0,"/>
+<polyline pts="-20,0,20,0,"/>
+<polyline pts="-14,7,14,7,"/>
+<polyline pts="-7,14,7,14,"/>
+<outlet x="0" y="-20"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="elektronika\pasívní komponenty\rezistory\resistor trimr.ppd" t="R" fG="b1823d82-aeb3-4d6c-9d0f-5d6904760390" lG="7ec51a39-11ba-4092-816e-13191b5a323d">
+<layers current="0">
+<layer name="0" v="1">
+<rect left="-8" top="-25" right="8" bottom="25"/>
+<outlet x="0" y="-25"/>
+<outlet x="0" y="25"/>
+<polyline pts="-20,20,20,-20,"/>
+<polyline pts="16,-25,25,-16,"/>
+<outlet x="-20" y="20"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="silnoproud\spínací a jistící zařízení\přepínací kontakty\kontakt přepínací.ppd" n="EN 60617: 07-02-04" fG="d1ab393a-300d-4d88-8161-68344e3c550e" lG="839d57cc-1f4e-4c21-9ad3-2590b74e792e">
+<layers current="0">
+<layer name="0" v="1">
+<polyline pts="0,30,0,60,"/>
+<polyline pts="0,-60,0,-30,"/>
+<polyline pts="0,30,-25,-40,"/>
+<polyline pts="-40,-60,-40,-30,"/>
+<polyline pts="-40,-30,-10,-30,"/>
+<outlet x="0" y="-60"/>
+<outlet x="0" y="60"/>
+<outlet x="-40" y="-60"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="elektronika\polovodiče a elektronky\diody\dioda.ppd" t="D" v="1N4007" n="EN 60617: 05-03-01" fG="6087fe49-9c75-4d49-bbc1-f41506f9f45c" lG="c055f947-5818-45fe-af90-d406955cc387">
+<layers current="0">
+<layer name="0" v="1">
+<polyline pts="-20,0,20,0,"/>
+<polyline pts="-20,-20,-20,20,"/>
+<outlet x="-20" y="0"/>
+<outlet x="20" y="0"/>
+<polygon pts="-20,0,20,-20,20,20,"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="silnoproud\relé a mechanické spínače\spínače mechanické\tlačítko zapínací.ppd" fG="b956d715-f39e-42af-9f07-b6be1969124e" lG="c179ac65-9716-4961-afb0-42e1eb9c0b0d">
+<layers current="0">
+<layer name="0" v="1">
+<polyline op-lw="4" pts="-25,0,25,0,"/>
+<polyline pts="0,0,0,-25,"/>
+<ellipse left="-26" top="5" right="-16" bottom="15"/>
+<ellipse left="16" top="5" right="26" bottom="15"/>
+<outlet x="-26" y="10"/>
+<outlet x="26" y="10"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="elektronika\pasívní komponenty\rezistory\potenciometr.ppd" t="R" fG="15872a71-732b-4acd-a633-e964cf6b31d1" lG="d36531d0-ca23-466d-a80d-b60086752d80">
+<layers current="0">
+<layer name="0" v="1">
+<rect left="-8" top="-25" right="8" bottom="25"/>
+<outlet x="0" y="-25"/>
+<outlet x="0" y="25"/>
+<polyline pts="-20,20,24,-24,"/>
+<polyline pts="24,-24,14,-20,"/>
+<polyline pts="24,-24,19,-14,"/>
+<outlet x="-20" y="20"/>
+</layer>
+</layers>
+</ppd>
+<ppd name="elektronika\polovodiče a elektronky\diody\dioda luminiscenční.ppd" t="D" v="HLMP7000" n="EN 60617: 05-03-02" fG="7a93ae27-f900-4f7b-935c-e129f590cabe" lG="e99aa1ee-f2d8-407e-96e8-4e91cb9ec706">
+<layers current="0">
+<layer name="0" v="1">
+<polygon pts="-20,0,20,-20,20,20,"/>
+<polyline pts="-20,0,20,0,"/>
+<polyline pts="-20,-20,-20,20,"/>
+<outlet x="-20" y="0"/>
+<outlet x="20" y="0"/>
+<polyline pts="13,-45,-5,-27,"/>
+<polyline pts="13,-45,2,-39,"/>
+<polyline pts="13,-45,7,-34,"/>
+<polyline pts="24,-35,6,-17,"/>
+<polyline pts="24,-35,18,-24,"/>
+<polyline pts="24,-35,14,-29,"/>
+</layer>
+</layers>
+</ppd>
+<DimStyle name="architektonické" arrow="1" flel="0" off_ori="10" lbl_pos="0" align_text="1" f="120,0,0,0,Arial,000000" unit="1" num-digits="2" suppress-zeros="0">
+<DimLine op-lw="1" op-lc="16711680"/>
+<ExtLine op-lw="1" op-lc="8421504"/>
+</DimStyle>
+</repo>
+<pages current="0">
+<page name="1" dim_style_name="architektonické">
+<PageSizeSettings paper_size_enum="9" sheet_size_x="297" sheet_size_y="210" source="0"/>
+<PagePrintSettings paper_size_enum="9" sheet_size_x="297" sheet_size_y="210"/>
+<tb use="1"/>
+<summary>
+<field name="_du" value="cm"/>
+<field name="_pa" value="1"/>
+<field name="_po" value="1"/>
+<field name="_potb" value="1"/>
+<field name="_sc" value=""/>
+</summary>
+<layers current="0">
+<layer name="0" v="1">
+<ic name="elektronika\IO\CMOS\CMOS 4017.picd" x="1660" y="1365" sX="0.8182" sY="0.8182">
+<attributes>
+<attribute name="_ref" value="IO1" v="1" al="0" x="1660" y="1345"/>
+<attribute name="_type" value="CMOS 4017" v="1" al="0" x="1655" y="1395"/>
+</attributes>
+<picd outlets_hor="0" outlets_ver="8" name="">
+<out_n>Q5,Q1,Q0,Q2,Q6,Q7,Q3,Uss,Q8,Q4,Q9,!Q5-9,!CP1,CP0,MR,Udd</out_n>
+<out_n_inv/>
+<desc/>
+<out_d>1,2,3,4,5,6,7,8,9,10,11,12,13,14</out_d>
+<pos_hor/>
+</picd>
+</ic>
+<elem lG="4cd4bf28-09c3-4747-bf41-b3e48dc210e5" x="600" y="1320">
+<attributes>
+<attribute name="_ref" value="1" v="0" al="6" x="533" y="1300"/>
+<attribute name="_type" value="" v="0" al="6" x="533" y="1340"/>
+</attributes>
+</elem>
+<elem lG="4cd4bf28-09c3-4747-bf41-b3e48dc210e5" x="925" y="1300">
+<attributes>
+<attribute name="_ref" value="2" v="0" al="6" x="858" y="1280"/>
+<attribute name="_type" value="" v="0" al="6" x="858" y="1320"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="535" y="1220" a="-900">
+<attributes>
+<attribute name="_ref" value="R2" v="1" al="6" x="500" y="1200"/>
+<attribute name="_type" value="10K" v="1" al="6" x="500" y="1240"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="500" y="1420" a="-900">
+<attributes>
+<attribute name="_ref" value="R3" v="1" al="6" x="465" y="1400"/>
+<attribute name="_type" value="10K" v="1" al="6" x="465" y="1440"/>
+</attributes>
+</elem>
+<elem lG="d36531d0-ca23-466d-a80d-b60086752d80" x="640" y="1220" h="1" a="-900">
+<attributes>
+<attribute name="_ref" value="R5" v="0" al="6" x="591" y="1200"/>
+<attribute name="_type" value="" v="0" al="6" x="591" y="1240"/>
+</attributes>
+</elem>
+<elem lG="3c3e597e-a91e-4b34-8520-0c5b3b7b4cc2" x="400" y="1220" a="900">
+<attributes>
+<attribute name="_ref" value="C1" v="1" al="6" x="357" y="1200"/>
+<attribute name="_type" value="10k" v="1" al="6" x="357" y="1240"/>
+</attributes>
+</elem>
+<polyline pts="560,1300,480,1300,"/>
+<polyline pts="480,1300,480,1220,"/>
+<polyline pts="480,1220,510,1220,"/>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="640" y="1420" a="-900">
+<attributes>
+<attribute name="_ref" value="R1" v="1" al="6" x="605" y="1400"/>
+<attribute name="_type" value="10K" v="1" al="6" x="605" y="1440"/>
+</attributes>
+</elem>
+<polyline pts="525,1420,615,1420,"/>
+<polyline pts="560,1220,615,1220,"/>
+<polyline pts="480,1220,405,1220,"/>
+<polyline pts="395,1220,365,1220,"/>
+<polyline pts="365,1220,365,1265,"/>
+<polyline pts="560,1340,545,1340,"/>
+<polyline pts="545,1340,545,1420,"/>
+<polyline pts="475,1420,450,1420,"/>
+<polyline pts="450,1420,450,1455,"/>
+<elem lG="6bc1ed64-68b8-4f01-9546-108b4fd774c8" x="365" y="1285">
+<attributes>
+<attribute name="_ref" value="zem1" v="0" al="6" x="320" y="1265"/>
+<attribute name="_type" value="" v="0" al="6" x="320" y="1305"/>
+</attributes>
+</elem>
+<elem lG="6bc1ed64-68b8-4f01-9546-108b4fd774c8" x="450" y="1465">
+<attributes>
+<attribute name="_ref" value="zem2" v="0" al="6" x="405" y="1445"/>
+<attribute name="_type" value="" v="0" al="6" x="405" y="1485"/>
+</attributes>
+</elem>
+<polyline pts="640,1320,730,1320,"/>
+<polyline pts="665,1220,690,1220,"/>
+<polyline pts="690,1220,690,1320,"/>
+<polyline pts="660,1200,680,1200,"/>
+<polyline pts="680,1200,680,1220,"/>
+<polyline pts="690,1320,690,1420,"/>
+<polyline pts="690,1420,665,1420,"/>
+<elem lG="c055f947-5818-45fe-af90-d406955cc387" x="815" y="1320" a="-1800" sX="0.9091">
+<attributes>
+<attribute name="_ref" value="D1" v="1" al="6" x="768" y="1300"/>
+<attribute name="_type" value="1N4007" v="1" al="6" x="768" y="1340"/>
+</attributes>
+</elem>
+<polyline pts="835,1320,885,1320,"/>
+<polyline pts="730,1320,795,1320,"/>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="865" y="1390">
+<attributes>
+<attribute name="_ref" value="R6" v="1" al="6" x="830" y="1370"/>
+<attribute name="_type" value="10K" v="1" al="6" x="830" y="1410"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1010" y="1390">
+<attributes>
+<attribute name="_ref" value="R7" v="1" al="6" x="975" y="1370"/>
+<attribute name="_type" value="10K" v="1" al="6" x="975" y="1410"/>
+</attributes>
+</elem>
+<polyline pts="965,1300,1010,1300,"/>
+<polyline pts="1010,1300,1010,1365,"/>
+<polyline pts="885,1280,860,1280,"/>
+<polyline pts="860,1280,860,1230,"/>
+<polyline pts="860,1230,1010,1230,"/>
+<polyline pts="1010,1230,1010,1300,"/>
+<polyline pts="1010,1300,1070,1300,"/>
+<elem lG="4cd4bf28-09c3-4747-bf41-b3e48dc210e5" x="820" y="940" a="-1800">
+<attributes>
+<attribute name="_ref" value="3" v="0" al="6" x="753" y="920"/>
+<attribute name="_type" value="" v="0" al="6" x="753" y="960"/>
+</attributes>
+</elem>
+<elem lG="c055f947-5818-45fe-af90-d406955cc387" x="695" y="940" sX="0.9545">
+<attributes>
+<attribute name="_ref" value="D2" v="1" al="6" x="658" y="900"/>
+<attribute name="_type" value="1N4007" v="1" al="6" x="758" y="900"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="625" y="1000" a="-1800">
+<attributes>
+<attribute name="_ref" value="R4" v="1" al="6" x="590" y="980"/>
+<attribute name="_type" value="10K" v="1" al="6" x="590" y="1020"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="515" y="1000" a="-1800">
+<attributes>
+<attribute name="_ref" value="R8" v="1" al="6" x="500" y="1000"/>
+<attribute name="_type" value="10K" v="1" al="6" x="505" y="1030"/>
+</attributes>
+</elem>
+<elem lG="2548ab55-ee23-4f22-a0ea-857f85eb0d8d" x="525" y="940" h="1" a="-1800" sX="0.3846" sY="0.3846">
+<attributes>
+<attribute name="_ref" value="T1" v="1" al="6" x="578" y="910"/>
+<attribute name="_type" value="BC337" v="1" al="6" x="628" y="875"/>
+</attributes>
+</elem>
+<polyline pts="715,940,780,940,"/>
+<polyline pts="675,940,545,940,"/>
+<polyline pts="625,975,625,940,"/>
+<polyline pts="515,955,515,975,"/>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="455" y="955" a="-900">
+<attributes>
+<attribute name="_ref" value="R9" v="1" al="6" x="430" y="930"/>
+<attribute name="_type" value="10K" v="1" al="6" x="480" y="930"/>
+</attributes>
+</elem>
+<polyline pts="480,955,515,955,"/>
+<polyline pts="865,1365,865,1320,"/>
+<elem lG="6bc1ed64-68b8-4f01-9546-108b4fd774c8" x="865" y="1435">
+<attributes>
+<attribute name="_ref" value="zem3" v="0" al="6" x="820" y="1415"/>
+<attribute name="_type" value="" v="0" al="6" x="820" y="1455"/>
+</attributes>
+</elem>
+<polyline pts="1010,1415,1010,1440,"/>
+<polyline pts="430,955,380,955,"/>
+<polyline pts="515,925,515,890,"/>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="515" y="885" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X1" v="0" al="6" x="480" y="865"/>
+<attribute name="_type" value="" v="0" al="6" x="480" y="905"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="506" y="878"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="506" y="893"/>
+</attributes>
+</elem>
+<elem lG="6bc1ed64-68b8-4f01-9546-108b4fd774c8" x="515" y="1065">
+<attributes>
+<attribute name="_ref" value="zem4" v="0" al="6" x="470" y="1045"/>
+<attribute name="_type" value="" v="0" al="6" x="470" y="1085"/>
+</attributes>
+</elem>
+<elem lG="6bc1ed64-68b8-4f01-9546-108b4fd774c8" x="625" y="1065">
+<attributes>
+<attribute name="_ref" value="zem5" v="0" al="6" x="580" y="1045"/>
+<attribute name="_type" value="" v="0" al="6" x="580" y="1085"/>
+</attributes>
+</elem>
+<polyline pts="515,1045,515,1025,"/>
+<polyline pts="625,1045,625,1025,"/>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="830" y="835" a="900">
+<attributes>
+<attribute name="_ref" value="R10" v="1" al="6" x="855" y="790"/>
+<attribute name="_type" value="10K" v="1" al="6" x="855" y="815"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="945" y="835" a="900">
+<attributes>
+<attribute name="_ref" value="R11" v="1" al="6" x="970" y="790"/>
+<attribute name="_type" value="10K" v="1" al="6" x="970" y="815"/>
+</attributes>
+</elem>
+<polyline pts="855,835,920,835,"/>
+<polyline pts="860,920,895,920,"/>
+<polyline pts="895,920,895,835,"/>
+<elem lG="6bc1ed64-68b8-4f01-9546-108b4fd774c8" x="985" y="865">
+<attributes>
+<attribute name="_ref" value="zem6" v="0" al="6" x="940" y="845"/>
+<attribute name="_type" value="" v="0" al="6" x="940" y="885"/>
+</attributes>
+</elem>
+<polyline pts="970,835,985,835,"/>
+<polyline pts="985,835,985,845,"/>
+<polyline pts="805,835,775,835,"/>
+<polyline pts="775,835,775,820,"/>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="775" y="815" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X2" v="0" al="6" x="740" y="795"/>
+<attribute name="_type" value="" v="0" al="6" x="740" y="835"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="766" y="808"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="766" y="823"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="920" y="1015">
+<attributes>
+<attribute name="_ref" value="R12" v="1" al="6" x="910" y="1030"/>
+<attribute name="_type" value="10K" v="1" al="6" x="910" y="1000"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1055" y="960" a="900">
+<attributes>
+<attribute name="_ref" value="R13" v="1" al="6" x="1080" y="915"/>
+<attribute name="_type" value="10K" v="1" al="6" x="1080" y="940"/>
+</attributes>
+</elem>
+<polyline pts="860,960,1030,960,"/>
+<polyline pts="920,990,920,960,"/>
+<elem lG="c055f947-5818-45fe-af90-d406955cc387" x="990" y="1070" a="900" sX="0.9091">
+<attributes>
+<attribute name="_ref" value="D3" v="1" al="6" x="1068" y="1080"/>
+<attribute name="_type" value="1N4007" v="1" al="6" x="1118" y="1050"/>
+</attributes>
+</elem>
+<polyline pts="990,1050,990,960,"/>
+<polyline pts="990,960,990,930,"/>
+<polyline pts="990,1085,990,1205,"/>
+<polyline pts="990,1205,1045,1205,"/>
+<polyline pts="1045,1205,1045,1300,"/>
+<elem lG="c055f947-5818-45fe-af90-d406955cc387" x="1215" y="960" sX="0.9091">
+<attributes>
+<attribute name="_ref" value="D4" v="0" al="6" x="1293" y="970"/>
+<attribute name="_type" value="1N4007" v="0" al="6" x="1343" y="940"/>
+</attributes>
+</elem>
+<polyline pts="1080,960,1200,960,"/>
+<elem lG="c055f947-5818-45fe-af90-d406955cc387" x="1215" y="900" sX="0.9091">
+<attributes>
+<attribute name="_ref" value="D5" v="0" al="6" x="1293" y="910"/>
+<attribute name="_type" value="1N4007" v="0" al="6" x="1343" y="880"/>
+</attributes>
+</elem>
+<elem lG="c055f947-5818-45fe-af90-d406955cc387" x="1215" y="840" sX="0.9091">
+<attributes>
+<attribute name="_ref" value="D6" v="0" al="6" x="1293" y="850"/>
+<attribute name="_type" value="1N4007" v="0" al="6" x="1343" y="820"/>
+</attributes>
+</elem>
+<elem lG="c055f947-5818-45fe-af90-d406955cc387" x="1215" y="1025" sX="0.9091">
+<attributes>
+<attribute name="_ref" value="D7" v="0" al="6" x="1293" y="1035"/>
+<attribute name="_type" value="1N4007" v="0" al="6" x="1343" y="1005"/>
+</attributes>
+</elem>
+<elem lG="c055f947-5818-45fe-af90-d406955cc387" x="1215" y="1085" sX="0.9091">
+<attributes>
+<attribute name="_ref" value="D8" v="0" al="6" x="1293" y="1095"/>
+<attribute name="_type" value="1N4007" v="0" al="6" x="1343" y="1065"/>
+</attributes>
+</elem>
+<polyline pts="1155,960,1155,840,"/>
+<polyline pts="1155,840,1200,840,"/>
+<polyline pts="1200,900,1155,900,"/>
+<polyline pts="1155,960,1155,1025,"/>
+<polyline pts="1155,1025,1200,1025,"/>
+<polyline pts="1200,1085,1155,1085,"/>
+<polyline pts="1155,1085,1155,1025,"/>
+<polyline pts="1155,840,1155,805,"/>
+<elem lG="c179ac65-9716-4961-afb0-42e1eb9c0b0d" x="1315" y="830">
+<attributes>
+<attribute name="_ref" value="4" v="0" al="6" x="1262" y="810"/>
+<attribute name="_type" value="" v="0" al="6" x="1262" y="850"/>
+</attributes>
+</elem>
+<elem lG="c179ac65-9716-4961-afb0-42e1eb9c0b0d" x="1315" y="890">
+<attributes>
+<attribute name="_ref" value="5" v="0" al="6" x="1262" y="870"/>
+<attribute name="_type" value="" v="0" al="6" x="1262" y="910"/>
+</attributes>
+</elem>
+<elem lG="c179ac65-9716-4961-afb0-42e1eb9c0b0d" x="1315" y="950">
+<attributes>
+<attribute name="_ref" value="6" v="0" al="6" x="1262" y="930"/>
+<attribute name="_type" value="" v="0" al="6" x="1262" y="970"/>
+</attributes>
+</elem>
+<elem lG="c179ac65-9716-4961-afb0-42e1eb9c0b0d" x="1315" y="1015">
+<attributes>
+<attribute name="_ref" value="7" v="0" al="6" x="1262" y="995"/>
+<attribute name="_type" value="" v="0" al="6" x="1262" y="1035"/>
+</attributes>
+</elem>
+<elem lG="c179ac65-9716-4961-afb0-42e1eb9c0b0d" x="1315" y="1075">
+<attributes>
+<attribute name="_ref" value="8" v="0" al="6" x="1262" y="1055"/>
+<attribute name="_type" value="" v="0" al="6" x="1262" y="1095"/>
+</attributes>
+</elem>
+<polyline pts="1230,840,1290,840,"/>
+<polyline pts="1230,900,1290,900,"/>
+<polyline pts="1230,960,1290,960,"/>
+<polyline pts="1230,1025,1290,1025,"/>
+<polyline pts="1230,1085,1290,1085,"/>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1590" y="725">
+<attributes>
+<attribute name="_ref" value="R14" v="0" al="6" x="1615" y="680"/>
+<attribute name="_type" value="10K" v="0" al="6" x="1615" y="705"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1660" y="725">
+<attributes>
+<attribute name="_ref" value="R15" v="0" al="6" x="1685" y="680"/>
+<attribute name="_type" value="10K" v="0" al="6" x="1685" y="705"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1730" y="725">
+<attributes>
+<attribute name="_ref" value="R16" v="0" al="6" x="1755" y="680"/>
+<attribute name="_type" value="10K" v="0" al="6" x="1755" y="705"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1800" y="725">
+<attributes>
+<attribute name="_ref" value="R17" v="0" al="6" x="1825" y="680"/>
+<attribute name="_type" value="10K" v="0" al="6" x="1825" y="705"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1525" y="725">
+<attributes>
+<attribute name="_ref" value="R18" v="0" al="6" x="1550" y="680"/>
+<attribute name="_type" value="10K" v="0" al="6" x="1550" y="705"/>
+</attributes>
+</elem>
+<elem lG="2548ab55-ee23-4f22-a0ea-857f85eb0d8d" x="1495" y="635" h="1" a="-1800" sX="0.3846" sY="0.3846">
+<attributes>
+<attribute name="_ref" value="T2" v="0" al="6" x="1548" y="605"/>
+<attribute name="_type" value="BC337" v="0" al="6" x="1598" y="570"/>
+</attributes>
+</elem>
+<elem lG="2548ab55-ee23-4f22-a0ea-857f85eb0d8d" x="1560" y="635" h="1" a="-1800" sX="0.3846" sY="0.3846">
+<attributes>
+<attribute name="_ref" value="T3" v="0" al="6" x="1613" y="605"/>
+<attribute name="_type" value="BC337" v="0" al="6" x="1663" y="570"/>
+</attributes>
+</elem>
+<elem lG="2548ab55-ee23-4f22-a0ea-857f85eb0d8d" x="1625" y="635" h="1" a="-1800" sX="0.3846" sY="0.3846">
+<attributes>
+<attribute name="_ref" value="T4" v="0" al="6" x="1678" y="605"/>
+<attribute name="_type" value="BC337" v="0" al="6" x="1728" y="570"/>
+</attributes>
+</elem>
+<elem lG="2548ab55-ee23-4f22-a0ea-857f85eb0d8d" x="1695" y="635" h="1" a="-1800" sX="0.3846" sY="0.3846">
+<attributes>
+<attribute name="_ref" value="T5" v="0" al="6" x="1748" y="605"/>
+<attribute name="_type" value="BC337" v="0" al="6" x="1798" y="570"/>
+</attributes>
+</elem>
+<elem lG="2548ab55-ee23-4f22-a0ea-857f85eb0d8d" x="1765" y="635" h="1" a="-1800" sX="0.3846" sY="0.3846">
+<attributes>
+<attribute name="_ref" value="T6" v="0" al="6" x="1818" y="605"/>
+<attribute name="_type" value="BC337" v="0" al="6" x="1868" y="570"/>
+</attributes>
+</elem>
+<polyline pts="1525,700,1525,635,"/>
+<polyline pts="1525,635,1515,635,"/>
+<polyline pts="1590,700,1590,635,"/>
+<polyline pts="1660,700,1660,635,"/>
+<polyline pts="1660,635,1640,635,"/>
+<polyline pts="1730,700,1730,635,"/>
+<polyline pts="1730,635,1710,635,"/>
+<polyline pts="1800,700,1800,635,"/>
+<polyline pts="1800,635,1785,635,"/>
+<elem lG="6bc1ed64-68b8-4f01-9546-108b4fd774c8" x="1485" y="680" sX="0.7500" sY="0.7273">
+<attributes>
+<attribute name="_ref" value="zem7" v="0" al="6" x="1440" y="660"/>
+<attribute name="_type" value="" v="0" al="6" x="1440" y="700"/>
+</attributes>
+</elem>
+<elem lG="6bc1ed64-68b8-4f01-9546-108b4fd774c8" x="1550" y="680" sX="0.7500" sY="0.7273">
+<attributes>
+<attribute name="_ref" value="zem8" v="0" al="6" x="1505" y="660"/>
+<attribute name="_type" value="" v="0" al="6" x="1505" y="700"/>
+</attributes>
+</elem>
+<elem lG="6bc1ed64-68b8-4f01-9546-108b4fd774c8" x="1615" y="685" sX="0.7500" sY="0.7273">
+<attributes>
+<attribute name="_ref" value="zem9" v="0" al="6" x="1570" y="665"/>
+<attribute name="_type" value="" v="0" al="6" x="1570" y="705"/>
+</attributes>
+</elem>
+<elem lG="6bc1ed64-68b8-4f01-9546-108b4fd774c8" x="1685" y="685" sX="0.7500" sY="0.7273">
+<attributes>
+<attribute name="_ref" value="zem10" v="0" al="6" x="1640" y="665"/>
+<attribute name="_type" value="" v="0" al="6" x="1640" y="705"/>
+</attributes>
+</elem>
+<elem lG="6bc1ed64-68b8-4f01-9546-108b4fd774c8" x="1755" y="685" sX="0.7500" sY="0.7273">
+<attributes>
+<attribute name="_ref" value="zem11" v="0" al="6" x="1710" y="665"/>
+<attribute name="_type" value="" v="0" al="6" x="1710" y="705"/>
+</attributes>
+</elem>
+<polyline pts="1755,670,1755,650,"/>
+<polyline pts="1685,670,1685,650,"/>
+<polyline pts="1615,670,1615,650,"/>
+<polyline pts="1550,665,1550,650,"/>
+<polyline pts="1485,665,1485,650,"/>
+<polyline pts="1590,635,1580,635,"/>
+<elem lG="e99aa1ee-f2d8-407e-96e8-4e91cb9ec706" x="1485" y="575" a="900" sX="0.7500" sY="0.7778">
+<attributes>
+<attribute name="_ref" value="D9" v="0" al="6" x="1436" y="555"/>
+<attribute name="_type" value="HLMP7000" v="0" al="6" x="1436" y="595"/>
+</attributes>
+</elem>
+<elem lG="e99aa1ee-f2d8-407e-96e8-4e91cb9ec706" x="1550" y="575" a="900" sX="0.7500" sY="0.7778">
+<attributes>
+<attribute name="_ref" value="D10" v="0" al="6" x="1501" y="555"/>
+<attribute name="_type" value="HLMP7000" v="0" al="6" x="1501" y="595"/>
+</attributes>
+</elem>
+<elem lG="e99aa1ee-f2d8-407e-96e8-4e91cb9ec706" x="1615" y="575" a="900" sX="0.7500" sY="0.7778">
+<attributes>
+<attribute name="_ref" value="D11" v="0" al="6" x="1566" y="555"/>
+<attribute name="_type" value="HLMP7000" v="0" al="6" x="1566" y="595"/>
+</attributes>
+</elem>
+<elem lG="e99aa1ee-f2d8-407e-96e8-4e91cb9ec706" x="1685" y="575" a="900" sX="0.7500" sY="0.7778">
+<attributes>
+<attribute name="_ref" value="D12" v="0" al="6" x="1636" y="555"/>
+<attribute name="_type" value="HLMP7000" v="0" al="6" x="1636" y="595"/>
+</attributes>
+</elem>
+<elem lG="e99aa1ee-f2d8-407e-96e8-4e91cb9ec706" x="1755" y="575" a="900" sX="0.7500" sY="0.7778">
+<attributes>
+<attribute name="_ref" value="D13" v="0" al="6" x="1706" y="555"/>
+<attribute name="_type" value="HLMP7000" v="0" al="6" x="1706" y="595"/>
+</attributes>
+</elem>
+<polyline pts="1485,620,1485,590,"/>
+<polyline pts="1550,590,1550,620,"/>
+<polyline pts="1615,620,1615,590,"/>
+<polyline pts="1685,620,1685,590,"/>
+<polyline pts="1755,620,1755,590,"/>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1485" y="515">
+<attributes>
+<attribute name="_ref" value="R19" v="0" al="6" x="1510" y="470"/>
+<attribute name="_type" value="10K" v="0" al="6" x="1510" y="495"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1550" y="515">
+<attributes>
+<attribute name="_ref" value="R20" v="0" al="6" x="1575" y="470"/>
+<attribute name="_type" value="10K" v="0" al="6" x="1575" y="495"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1615" y="515">
+<attributes>
+<attribute name="_ref" value="R21" v="0" al="6" x="1640" y="470"/>
+<attribute name="_type" value="10K" v="0" al="6" x="1640" y="495"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1685" y="515">
+<attributes>
+<attribute name="_ref" value="R22" v="0" al="6" x="1710" y="470"/>
+<attribute name="_type" value="10K" v="0" al="6" x="1710" y="495"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="1755" y="515">
+<attributes>
+<attribute name="_ref" value="R23" v="0" al="6" x="1780" y="470"/>
+<attribute name="_type" value="10K" v="0" al="6" x="1780" y="495"/>
+</attributes>
+</elem>
+<polyline pts="1485,540,1485,560,"/>
+<polyline pts="1550,560,1550,540,"/>
+<polyline pts="1615,540,1615,560,"/>
+<polyline pts="1685,540,1685,560,"/>
+<polyline pts="1755,540,1755,560,"/>
+<polyline pts="1755,490,1755,480,"/>
+<polyline pts="1685,490,1685,480,"/>
+<polyline pts="1615,490,1615,480,"/>
+<polyline pts="1550,490,1550,480,"/>
+<polyline pts="1485,490,1485,480,"/>
+<polyline pts="1485,480,1755,480,"/>
+<polyline pts="1615,480,1615,450,"/>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="1615" y="445" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X3" v="0" al="6" x="1580" y="425"/>
+<attribute name="_type" value="" v="0" al="6" x="1580" y="465"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="1606" y="438"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="1606" y="453"/>
+</attributes>
+</elem>
+<polyline pts="1340,960,1985,960,"/>
+<elem lG="d36531d0-ca23-466d-a80d-b60086752d80" x="2010" y="960" h="1" a="-900">
+<attributes>
+<attribute name="_ref" value="R24" v="0" al="6" x="1961" y="940"/>
+<attribute name="_type" value="" v="0" al="6" x="1961" y="980"/>
+</attributes>
+</elem>
+<elem lG="d36531d0-ca23-466d-a80d-b60086752d80" x="2010" y="895" h="1" a="-900">
+<attributes>
+<attribute name="_ref" value="R25" v="0" al="6" x="1961" y="875"/>
+<attribute name="_type" value="" v="0" al="6" x="1961" y="915"/>
+</attributes>
+</elem>
+<elem lG="d36531d0-ca23-466d-a80d-b60086752d80" x="2010" y="830" h="1" a="-900">
+<attributes>
+<attribute name="_ref" value="R26" v="0" al="6" x="1961" y="810"/>
+<attribute name="_type" value="" v="0" al="6" x="1961" y="850"/>
+</attributes>
+</elem>
+<elem lG="d36531d0-ca23-466d-a80d-b60086752d80" x="2010" y="1025" h="1" a="-900">
+<attributes>
+<attribute name="_ref" value="R27" v="0" al="6" x="1961" y="1005"/>
+<attribute name="_type" value="" v="0" al="6" x="1961" y="1045"/>
+</attributes>
+</elem>
+<elem lG="d36531d0-ca23-466d-a80d-b60086752d80" x="2010" y="1090" h="1" a="-900">
+<attributes>
+<attribute name="_ref" value="R28" v="0" al="6" x="1961" y="1070"/>
+<attribute name="_type" value="" v="0" al="6" x="1961" y="1110"/>
+</attributes>
+</elem>
+<polyline pts="2035,1090,2070,1090,"/>
+<polyline pts="2035,1025,2070,1025,"/>
+<polyline pts="2035,960,2070,960,"/>
+<polyline pts="2035,895,2070,895,"/>
+<polyline pts="2035,830,2070,830,"/>
+<polyline pts="2070,830,2070,1090,"/>
+<polyline pts="1340,900,1920,900,"/>
+<polyline pts="1340,840,1920,840,"/>
+<polyline pts="1340,1025,1920,1025,"/>
+<polyline pts="1340,1085,1920,1085,"/>
+<polyline pts="1920,900,1920,895,"/>
+<polyline pts="1920,895,1985,895,"/>
+<polyline pts="1920,840,1920,830,"/>
+<polyline pts="1920,830,1985,830,"/>
+<polyline pts="1920,1025,1985,1025,"/>
+<polyline pts="1920,1085,1920,1090,"/>
+<polyline pts="1920,1090,1985,1090,"/>
+<elem lG="c055f947-5818-45fe-af90-d406955cc387" x="2175" y="810" a="-1800" sX="0.9091">
+<attributes>
+<attribute name="_ref" value="D14" v="0" al="6" x="2253" y="820"/>
+<attribute name="_type" value="1N4007" v="0" al="6" x="2303" y="790"/>
+</attributes>
+</elem>
+<elem lG="c055f947-5818-45fe-af90-d406955cc387" x="2175" y="875" a="-1800" sX="0.9091">
+<attributes>
+<attribute name="_ref" value="D15" v="0" al="6" x="2253" y="885"/>
+<attribute name="_type" value="1N4007" v="0" al="6" x="2303" y="855"/>
+</attributes>
+</elem>
+<elem lG="c055f947-5818-45fe-af90-d406955cc387" x="2175" y="940" a="-1800" sX="0.9091">
+<attributes>
+<attribute name="_ref" value="D16" v="0" al="6" x="2253" y="950"/>
+<attribute name="_type" value="1N4007" v="0" al="6" x="2303" y="920"/>
+</attributes>
+</elem>
+<elem lG="c055f947-5818-45fe-af90-d406955cc387" x="2175" y="1005" a="-1800" sX="0.9091">
+<attributes>
+<attribute name="_ref" value="D17" v="0" al="6" x="2253" y="1015"/>
+<attribute name="_type" value="1N4007" v="0" al="6" x="2303" y="985"/>
+</attributes>
+</elem>
+<elem lG="c055f947-5818-45fe-af90-d406955cc387" x="2175" y="1070" a="-1800" sX="0.9091">
+<attributes>
+<attribute name="_ref" value="D18" v="0" al="6" x="2253" y="1080"/>
+<attribute name="_type" value="1N4007" v="0" al="6" x="2303" y="1050"/>
+</attributes>
+</elem>
+<polyline pts="2030,1070,2160,1070,"/>
+<polyline pts="2030,1005,2160,1005,"/>
+<polyline pts="2030,940,2160,940,"/>
+<polyline pts="2030,875,2160,875,"/>
+<polyline pts="2030,810,2160,810,"/>
+<polyline pts="2190,1070,2215,1070,"/>
+<polyline pts="2190,1005,2215,1005,"/>
+<polyline pts="2215,1070,2215,770,"/>
+<polyline pts="2190,810,2215,810,"/>
+<polyline pts="2190,875,2215,875,"/>
+<polyline pts="2190,940,2215,940,"/>
+<polyline pts="2215,940,2255,940,"/>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="2280" y="940" a="-900">
+<attributes>
+<attribute name="_ref" value="R29" v="0" al="6" x="2305" y="895"/>
+<attribute name="_type" value="10K" v="0" al="6" x="2305" y="920"/>
+</attributes>
+</elem>
+<elem lG="4cd4bf28-09c3-4747-bf41-b3e48dc210e5" x="2435" y="920">
+<attributes>
+<attribute name="_ref" value="9" v="0" al="6" x="2368" y="900"/>
+<attribute name="_type" value="" v="0" al="6" x="2368" y="940"/>
+</attributes>
+</elem>
+<polyline pts="2305,940,2395,940,"/>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="2530" y="920" a="-900">
+<attributes>
+<attribute name="_ref" value="R30" v="0" al="6" x="2555" y="875"/>
+<attribute name="_type" value="10K" v="0" al="6" x="2555" y="900"/>
+</attributes>
+</elem>
+<polyline pts="2475,920,2505,920,"/>
+<polyline pts="2395,900,2375,900,"/>
+<polyline pts="2375,900,2375,855,"/>
+<polyline pts="2375,855,2485,855,"/>
+<polyline pts="2485,855,2485,920,"/>
+<polyline pts="2555,920,2600,920,"/>
+<elem lG="839d57cc-1f4e-4c21-9ad3-2590b74e792e" x="2343" y="983" h="1" sX="0.8333" sY="0.7258">
+<attributes>
+<attribute name="_ref" value="10" v="0" al="6" x="2276" y="963"/>
+<attribute name="_type" value="" v="0" al="6" x="2276" y="1003"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="2305" y="1075">
+<attributes>
+<attribute name="_ref" value="R31" v="0" al="6" x="2330" y="1030"/>
+<attribute name="_type" value="10K" v="0" al="6" x="2330" y="1055"/>
+</attributes>
+</elem>
+<elem lG="2f9a12a0-0c17-4b74-aafe-7d8c4b646eb0" x="2355" y="1075">
+<attributes>
+<attribute name="_ref" value="R32" v="0" al="6" x="2380" y="1030"/>
+<attribute name="_type" value="10K" v="0" al="6" x="2380" y="1055"/>
+</attributes>
+</elem>
+<polyline pts="2310,1027,2305,1027,"/>
+<polyline pts="2305,1027,2305,1050,"/>
+<polyline pts="2355,1050,2355,1026,"/>
+<polyline pts="2355,1026,2343,1026,"/>
+<elem lG="7ec51a39-11ba-4092-816e-13191b5a323d" x="2355" y="1160" v="1" sX="0.8000" sY="0.7778">
+<attributes>
+<attribute name="_ref" value="R34" v="0" al="6" x="2305" y="1140"/>
+<attribute name="_type" value="" v="0" al="6" x="2305" y="1180"/>
+</attributes>
+</elem>
+<elem lG="7ec51a39-11ba-4092-816e-13191b5a323d" x="2305" y="1160" sX="0.8000" sY="0.7778">
+<attributes>
+<attribute name="_ref" value="R33" v="0" al="6" x="2255" y="1140"/>
+<attribute name="_type" value="" v="0" al="6" x="2255" y="1180"/>
+</attributes>
+</elem>
+<polyline pts="2355,1140,2355,1100,"/>
+<polyline pts="2305,1100,2305,1140,"/>
+<polyline pts="2305,1180,2305,1195,"/>
+<polyline pts="2355,1180,2355,1195,"/>
+<polyline pts="2305,1195,2355,1195,"/>
+<polyline pts="2370,1175,2370,1195,"/>
+<polyline pts="2370,1195,2355,1195,"/>
+<polyline pts="2290,1175,2290,1195,"/>
+<polyline pts="2290,1195,2305,1195,"/>
+<elem lG="6bc1ed64-68b8-4f01-9546-108b4fd774c8" x="2330" y="1215">
+<attributes>
+<attribute name="_ref" value="zem12" v="0" al="6" x="2285" y="1195"/>
+<attribute name="_type" value="" v="0" al="6" x="2285" y="1235"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="625" y="940" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X4" v="0" al="6" x="590" y="920"/>
+<attribute name="_type" value="" v="0" al="6" x="590" y="960"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="616" y="933"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="616" y="948"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="920" y="960" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X5" v="0" al="6" x="885" y="940"/>
+<attribute name="_type" value="" v="0" al="6" x="885" y="980"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="911" y="953"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="911" y="968"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="895" y="835" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X6" v="0" al="6" x="860" y="815"/>
+<attribute name="_type" value="" v="0" al="6" x="860" y="855"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="886" y="828"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="886" y="843"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="990" y="960" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X7" v="0" al="6" x="955" y="940"/>
+<attribute name="_type" value="" v="0" al="6" x="955" y="980"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="981" y="953"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="981" y="968"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="1155" y="1025" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X8" v="0" al="6" x="1120" y="1005"/>
+<attribute name="_type" value="" v="0" al="6" x="1120" y="1045"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="1146" y="1018"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="1146" y="1033"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="1155" y="960" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X9" v="0" al="6" x="1120" y="940"/>
+<attribute name="_type" value="" v="0" al="6" x="1120" y="980"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="1146" y="953"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="1146" y="968"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="1155" y="900" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X10" v="0" al="6" x="1120" y="880"/>
+<attribute name="_type" value="" v="0" al="6" x="1120" y="920"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="1146" y="893"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="1146" y="908"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="1155" y="840" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X11" v="0" al="6" x="1120" y="820"/>
+<attribute name="_type" value="" v="0" al="6" x="1120" y="860"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="1146" y="833"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="1146" y="848"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="2070" y="895" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X12" v="0" al="6" x="2035" y="875"/>
+<attribute name="_type" value="" v="0" al="6" x="2035" y="915"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="2061" y="888"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="2061" y="903"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="2070" y="960" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X13" v="0" al="6" x="2035" y="940"/>
+<attribute name="_type" value="" v="0" al="6" x="2035" y="980"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="2061" y="953"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="2061" y="968"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="2070" y="1025" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X14" v="0" al="6" x="2035" y="1005"/>
+<attribute name="_type" value="" v="0" al="6" x="2035" y="1045"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="2061" y="1018"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="2061" y="1033"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="2215" y="1005" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X15" v="0" al="6" x="2180" y="985"/>
+<attribute name="_type" value="" v="0" al="6" x="2180" y="1025"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="2206" y="998"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="2206" y="1013"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="2215" y="940" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X16" v="0" al="6" x="2180" y="920"/>
+<attribute name="_type" value="" v="0" al="6" x="2180" y="960"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="2206" y="933"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="2206" y="948"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="2215" y="875" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X17" v="0" al="6" x="2180" y="855"/>
+<attribute name="_type" value="" v="0" al="6" x="2180" y="895"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="2206" y="868"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="2206" y="883"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="2215" y="810" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X18" v="0" al="6" x="2180" y="790"/>
+<attribute name="_type" value="" v="0" al="6" x="2180" y="830"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="2206" y="803"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="2206" y="818"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="2343" y="940" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X19" v="0" al="6" x="2308" y="920"/>
+<attribute name="_type" value="" v="0" al="6" x="2308" y="960"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="2334" y="933"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="2334" y="948"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="2485" y="920" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X20" v="0" al="6" x="2450" y="900"/>
+<attribute name="_type" value="" v="0" al="6" x="2450" y="940"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="2476" y="913"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="2476" y="928"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="2305" y="1195" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X21" v="0" al="6" x="2270" y="1175"/>
+<attribute name="_type" value="" v="0" al="6" x="2270" y="1215"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="2296" y="1188"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="2296" y="1203"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="2355" y="1195" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X22" v="0" al="6" x="2320" y="1175"/>
+<attribute name="_type" value="" v="0" al="6" x="2320" y="1215"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="2346" y="1188"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="2346" y="1203"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="2330" y="1195" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X23" v="0" al="6" x="2295" y="1175"/>
+<attribute name="_type" value="" v="0" al="6" x="2295" y="1215"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="2321" y="1188"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="2321" y="1203"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="1010" y="1300" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X24" v="0" al="6" x="975" y="1280"/>
+<attribute name="_type" value="" v="0" al="6" x="975" y="1320"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="1001" y="1293"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="1001" y="1308"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="1045" y="1300" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X25" v="0" al="6" x="1010" y="1280"/>
+<attribute name="_type" value="" v="0" al="6" x="1010" y="1320"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="1036" y="1293"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="1036" y="1308"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="865" y="1320" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X26" v="0" al="6" x="830" y="1300"/>
+<attribute name="_type" value="" v="0" al="6" x="830" y="1340"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="856" y="1313"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="856" y="1328"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="690" y="1320" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X27" v="0" al="6" x="655" y="1300"/>
+<attribute name="_type" value="" v="0" al="6" x="655" y="1340"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="681" y="1313"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="681" y="1328"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="680" y="1220" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X28" v="0" al="6" x="645" y="1200"/>
+<attribute name="_type" value="" v="0" al="6" x="645" y="1240"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="671" y="1213"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="671" y="1228"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="480" y="1220" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X29" v="0" al="6" x="445" y="1200"/>
+<attribute name="_type" value="" v="0" al="6" x="445" y="1240"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="471" y="1213"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="471" y="1228"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="545" y="1420" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X30" v="0" al="6" x="510" y="1400"/>
+<attribute name="_type" value="" v="0" al="6" x="510" y="1440"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="536" y="1413"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="536" y="1428"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="1550" y="480" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X32" v="0" al="6" x="1515" y="460"/>
+<attribute name="_type" value="" v="0" al="6" x="1515" y="500"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="1541" y="473"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="1541" y="488"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="1615" y="480" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X33" v="0" al="6" x="1580" y="460"/>
+<attribute name="_type" value="" v="0" al="6" x="1580" y="500"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="1606" y="473"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="1606" y="488"/>
+</attributes>
+</elem>
+<elem lG="0307fdce-dbe4-414c-974b-55fadf6d9537" x="1685" y="480" op-fd="1" op-fc="0" sX="0.5000" sY="0.5000">
+<attributes>
+<attribute name="_ref" value="X34" v="0" al="6" x="1650" y="460"/>
+<attribute name="_type" value="" v="0" al="6" x="1650" y="500"/>
+<attribute name="_o1" value="1" v="0" custom="i" al="6" x="1676" y="473"/>
+<attribute name="_o2" value="1" v="0" custom="o" al="6" x="1676" y="488"/>
+</attributes>
+</elem>
+</layer>
+</layers>
+</page>
+</pages>
+</document>
